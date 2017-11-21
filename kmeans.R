@@ -46,7 +46,7 @@ plot(numClusters, withinBetweenRatio, xlab = "K", ylab = "Within/Between Ratio f
 lines(numClusters, withinBetweenRatio)
 k <- 5 
 
-#clustering and PCA(Principal components analysis)
+#clustering and analysis
 km <- kmeans(ukdata[,-1], centers = 10)
 agg<-aggregate(ukdata[,-1],by=list(km$cluster),FUN=mean) #get cluster means
 ukdata<- data.frame(ukdata[,-1],km$cluster) #find the movies belonging to which cluster
