@@ -30,9 +30,7 @@ MidValue= rep(0, 20) # I construct a empty vector to store the mid value
 
 
 #calculate the distance between items(movies), the result is a 1682*1682 matrix
-d = dist(ukdata[,-1], method = 'euclidean') 
-d<- as.matrix(d)
-d<- as.data.frame(d)  
+ 
 d<- dist(ukdata[,-1], method = 'euclidean')  
 
 #the for loop is used for calculate the mid value= the division between withinss and betweenss
