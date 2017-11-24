@@ -33,11 +33,17 @@ $average.within
 ## decision tree
 #### comparison between actual and prediction(for rating)
 shows how many ratins with value "dt.pre" have been classified as rating "trueResults"
+
                          trueResults
+                         
      dt.pre          1    2    3    4    5
+     
   2.33564686285397  293  214  207  113   61
+  
   3.2171165806537   568 1143 2625 2311  927
+  
   3.68648356194901  251  686 2052 3036 1825
+  
   4.12265815910942   85  177  668 1315 1460
   
 ## KNN
