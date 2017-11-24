@@ -42,3 +42,6 @@ shows how many ratins with value "dt.pre" have been classified as rating "trueRe
   
 ## KNN
 The performance of this data using KNN is terrible. I guess it is because the genre of movie are different kinds and matrix is a sparse matrix, finding neighbors are not realistic..... 
+### To conclude
+We need to analyze the data first and then find the suitable methods to handle the data and do recommendation. 
+I need to study by heart.....
