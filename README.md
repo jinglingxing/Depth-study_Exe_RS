@@ -1,17 +1,15 @@
 # Depth-study_Exe_RS
 This is some exercises including Kmeans, KNN, Hierarchical clustering, Decision tree. The data is same as the RS final project. 
 ## K-means
-### Image1: How to set the K value
-![image](https://github.com/jinglingxing/Depth-study_Exe_RS/blob/master/Rplot-Kmeans.png)
-### Image2: The silhouette performance 
-![image](https://github.com/jinglingxing/Depth-study_Exe_RS/blob/master/Rplot-kmeans-silhouette.png)
+**How to set the K value**
+
+**The silhouette performance **
 
 The silhouette value is a measure of how similar an object is to its own cluster (cohesion) compared to other clusters (separation). The silhouette ranges from −1 to +1, where a high value indicates that the object is well matched to its own cluster and poorly matched to neighboring clusters. If most objects have a high value, then the clustering configuration is appropriate. 
 In this case, the silhouette value is between 0.8 to 1.0, it proved that the K value is good enough.
 ## Hierarchical
-### Image3: How to find the number of clusters
-![image](https://github.com/jinglingxing/Depth-study_Exe_RS/blob/master/Rplot-hierarchical.png)
-#### There is to show many properties of the clustering
+**How to find the number of clusters**
+**There is to show many properties of the clustering**
 $n
 [1] 1682
 
@@ -31,7 +29,8 @@ $average.between
 $average.within
 [1] 32.67737
 ## decision tree
-#### comparison between actual and prediction(for rating)
+**comparison between actual and prediction(for rating)**
+
 shows how many ratins with value "dt.pre" have been classified as rating "trueResults"
 
                          trueResults
@@ -48,6 +47,6 @@ shows how many ratins with value "dt.pre" have been classified as rating "trueRe
   
 ## KNN
 The performance of this data using KNN is terrible. I guess it is because the genre of movie are different kinds and matrix is a sparse matrix, finding neighbors are not realistic..... 
-### To conclude
+## To conclude
 We need to analyze the data first and then find the suitable methods to handle the data and do recommendation. 
 I need to study by heart.....
