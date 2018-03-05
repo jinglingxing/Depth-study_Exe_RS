@@ -1,5 +1,6 @@
 # Depth-study_Exe_RS
-This is some exercises including Kmeans, KNN, Hierarchical clustering, Decision tree. The data is same as the RS final project. 
+This is some exercises including Kmeans, KNN, Hierarchical clustering, Decision tree. The data is same as the RS final project.<br> 
+Author: Jinling XING jinling.xing@polymtl.ca
 ## K-means
 **How to set the K value**
 
